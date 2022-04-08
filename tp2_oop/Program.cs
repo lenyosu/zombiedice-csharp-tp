@@ -34,14 +34,55 @@ namespace tp2_oop
 
             return nomJoueurs;
         }
+
+        static string GenererCouleurDes(List<De> des)
+        {
+            string couleurDe = "";
+            couleurDe += "[";
+            foreach (De de in des)
+            {
+                if (de.Couleur == Couleur.Rouge)
+                {
+                    couleurDe += "R";
+                }
+                
+                else if (de.Couleur == Couleur.Vert)
+                {
+                    couleurDe += "V";
+                }
+
+                else if (de.Couleur == Couleur.Jaune)
+                {
+                    couleurDe += "J";
+                }
+                if (couleurDe[couleurDe.Length - 1] != '[' )
+                {
+                    couleurDe += ",";
+                }
+            }
+            if (couleurDe[couleurDe.Length - 1] == ',')
+            {
+                couleurDe = couleurDe.Substring(0, couleurDe.Length - 1);
+            }
+            couleurDe += "]";
+            
+            if (couleurDe.Length == 2)
+            {
+                couleurDe = "";
+            }
+            return couleurDe;
+        }
         static bool AfficherResultatBrasse(Brasse brasse)
         {
+            string couleurPas = GenererCouleurDes(brasse.DesPas);
+            string couleurBalle = GenererCouleurDes(brasse.DesBalles);
+            string couleurCerveau = GenererCouleurDes(brasse.DesCerveaux);
             Console.Clear();
             ConsoleKeyInfo confirm;
             Console.WriteLine("-------Tour: " + brasse.Proprio.Nom + "-------");
-            Console.WriteLine(brasse.NbPas + " pas pigés");
-            Console.WriteLine(brasse.NbBalles + " balles pigés");
-            Console.WriteLine(brasse.NbCerveaux + " cerveaux pigés");
+            Console.WriteLine(brasse.NbPas + " pas pigés" + couleurPas);
+            Console.WriteLine(brasse.NbBalles + " balles pigés" + couleurBalle);
+            Console.WriteLine(brasse.NbCerveaux + " cerveaux pigés" + couleurCerveau);
             Console.WriteLine("----------------------------------");
             Console.WriteLine("Voulez-vous continuer? (y/n)");
             
@@ -89,6 +130,12 @@ namespace tp2_oop
 
                 Brasse brasse = partie.JoueurActif.FaireBrasse(gobelet);
                 continuer = AfficherResultatBrasse(brasse);
+                if (brasse.NbBalles >= 3)
+                {
+                    Console.WriteLine("Vous êtez mort et vous ne receverez aucun point.");
+                    Console.ReadKey();
+                    break;
+                }
                 if (continuer == false)
                 {
                     List<De> tousDes = brasse.ReturnDesToGobelet();
