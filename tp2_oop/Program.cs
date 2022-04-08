@@ -14,7 +14,7 @@ namespace tp2_oop
             byte nbJoueurs;
 
             Console.WriteLine("Bienvenue à ZombieDice!");
-            Console.WriteLine("Veuillez entrer le nombre de joueurs:");
+            Console.Write("Veuillez entrer le nombre de joueurs: ");
             nbJoueurs = byte.Parse(Console.ReadLine());
 
             return nbJoueurs;
@@ -28,7 +28,7 @@ namespace tp2_oop
             for (int i = 0; i < nbJoueurs; i++)
             {
                 Console.Clear();
-                Console.WriteLine("Veuillez entrer le nom du joueur " + (i + 1) + ":");
+                Console.Write("Veuillez entrer le nom du joueur " + (i + 1) + ": ");
                 nomJoueurs[i] = Console.ReadLine();
             }
 
@@ -72,22 +72,13 @@ namespace tp2_oop
             }
             return couleurDe;
         }
-        static bool AfficherResultatBrasse(Brasse brasse)
+        static bool voulezContinuer()
         {
-            string couleurPas = GenererCouleurDes(brasse.DesPas);
-            string couleurBalle = GenererCouleurDes(brasse.DesBalles);
-            string couleurCerveau = GenererCouleurDes(brasse.DesCerveaux);
-            Console.Clear();
-            ConsoleKeyInfo confirm;
-            Console.WriteLine("-------Tour: " + brasse.Proprio.Nom + "-------");
-            Console.WriteLine(brasse.NbPas + " pas pigés" + couleurPas);
-            Console.WriteLine(brasse.NbBalles + " balles pigés" + couleurBalle);
-            Console.WriteLine(brasse.NbCerveaux + " cerveaux pigés" + couleurCerveau);
-            Console.WriteLine("----------------------------------");
             Console.WriteLine("Voulez-vous continuer? (y/n)");
-            
+
             while (true)
             {
+                ConsoleKeyInfo confirm;
                 confirm = Console.ReadKey(true);
                 if (confirm.Key == ConsoleKey.Y)
                 {
@@ -99,8 +90,30 @@ namespace tp2_oop
                     return false;
                 }
             }
+        }
 
-             
+        static void messageFin(ZombieDice partie)
+        {
+            Console.Clear();
+            foreach (Joueur joueur in partie.Joueurs)
+            {
+                Console.WriteLine("Nom: " + joueur.Nom + " // Points: " + joueur.Pointage);
+                
+            }
+            Console.ReadKey();
+        }
+        static void AfficherResultatBrasse(Brasse brasse)
+        {
+            string couleurPas = GenererCouleurDes(brasse.DesPas);
+            string couleurBalle = GenererCouleurDes(brasse.DesBalles);
+            string couleurCerveau = GenererCouleurDes(brasse.DesCerveaux);
+            
+            Console.WriteLine("[Tour: " + brasse.Proprio.Nom + "] ------- [Points: " + brasse.Proprio.Pointage + "]");
+            Console.WriteLine(brasse.NbPas + " pas pigés" + couleurPas);
+            Console.WriteLine(brasse.NbBalles + " balles pigés" + couleurBalle);
+            Console.WriteLine(brasse.NbCerveaux + " cerveaux pigés" + couleurCerveau);
+            Console.WriteLine("----------------------------------");
+
         }
 
         static void FaireTourJeuComplet(ZombieDice partie, byte nbJoueurs)
@@ -108,8 +121,8 @@ namespace tp2_oop
             for (int i = 0; i < nbJoueurs; i++)
             {
                 Console.Clear();
-                partie.ChangerJoueurActif(i);
                 
+                partie.ChangerJoueurActif(i);
                 
                 FaireTourUnJoueur(partie);
             }
@@ -129,17 +142,33 @@ namespace tp2_oop
                 Gobelet gobelet = partie.GetGobelet();
 
                 Brasse brasse = partie.JoueurActif.FaireBrasse(gobelet);
-                continuer = AfficherResultatBrasse(brasse);
+                AfficherResultatBrasse(brasse);
+                if (gobelet.GetNbDesDisponibles() <= 3)
+                {
+                    gobelet.Remplir(brasse.ReturnDesCerveaux());
+                }
                 if (brasse.NbBalles >= 3)
                 {
-                    Console.WriteLine("Vous êtez mort et vous ne receverez aucun point.");
-                    Console.ReadKey();
-                    break;
-                }
-                if (continuer == false)
-                {
+                    Console.WriteLine("Vous êtez mort et vous ne receverez aucun point. (3 balles)");
                     List<De> tousDes = brasse.ReturnDesToGobelet();
                     gobelet.Remplir(tousDes);
+                    Console.ReadKey();
+                    break;
+                }   
+                
+                continuer = voulezContinuer();
+                
+                if (continuer == false)
+                {
+                    int tempPoints = brasse.MarquerPoints();
+                    Console.WriteLine(tempPoints + " points gagnés.");
+                    Console.ReadKey();
+                    List<De> tousDes = brasse.ReturnDesToGobelet();
+                    gobelet.Remplir(tousDes);
+                }
+                if (brasse.Proprio.Pointage >= 13)
+                {
+                    partie.PartieTermine = true;
                 }
             }
             
@@ -155,8 +184,9 @@ namespace tp2_oop
             while (!partie.PartieTermine)
             {
                 FaireTourJeuComplet(partie, nbJoueurs);
-                
             }
+
+            messageFin(partie);
             
         }
     }

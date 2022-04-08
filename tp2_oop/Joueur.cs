@@ -14,13 +14,13 @@ namespace tp2_oop
         public Joueur(string nom)
         {
             Nom = nom;
-            pointage = 0;
+            Pointage = 0;
             this.brasse = new Brasse(this);
         }
 
         public string Nom { get; set; }
 
-        private int pointage { get; set; }
+        public int Pointage { get; set; }
 
         public Brasse FaireBrasse(Gobelet gobelet)
         {

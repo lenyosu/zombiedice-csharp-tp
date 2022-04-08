@@ -90,39 +90,12 @@ namespace tp2_oop
             }
         }
 
-        public List<De> MarquesPoints()
+        public int MarquerPoints()
         {
-            return desCerveaux;
+            this.Proprio.Pointage += nbCerveauxRestants + NbCerveaux;
+
+            return nbCerveauxRestants + NbCerveaux;
         }
 
-        public int GetNbBalles()
-        {
-            return NbBalles;
-        }
-
-        
-        public int GetNbCerveaux()
-        {
-            return NbCerveaux;
-        }
-        public int GetNbPas()
-        {
-            return NbPas;
-        }
-
-        public List<De> GetDesPas()
-        {
-            return desPas;
-        }
-
-        public List<De> GetDesBalles()
-        {
-            return desBalles;
-        }
-
-        public List<De> GetDesCerveaux()
-        {
-            return desCerveaux;
-        }
     }
 }
