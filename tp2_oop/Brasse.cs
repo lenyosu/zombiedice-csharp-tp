@@ -31,6 +31,10 @@ namespace tp2_oop
 
         public int NbBalles { get => desBalles.Count; }
 
+        /// <summary>
+        /// Prend tous les dés et le remet dans le gobelet
+        /// </summary>
+        /// <returns>Les dés a mettre dans le gobelet</returns>
         public List<De> ReturnDesToGobelet()
         {
             List<De> desToGobelet = new List<De>();
@@ -47,6 +51,10 @@ namespace tp2_oop
             return desToGobelet;
         }
 
+        /// <summary>
+        /// Compte le nombre de pas et l'enlève de la liste desPas
+        /// </summary>
+        /// <returns>Nombre de pas temporaire</returns>
         public List<De> ReturnDesPas()
         {
             List<De> tempPas = new List<De>();
@@ -57,6 +65,10 @@ namespace tp2_oop
             return tempPas;
         }
 
+        /// <summary>
+        /// Compte le nombre de cerveaux et l'enlève de la liste desCerveaux
+        /// </summary>
+        /// <returns>Nombre de cerveaux temporaire</returns>
         public List<De> ReturnDesCerveaux()
         {
             List<De> tempCerveaux = new List<De>();
@@ -68,7 +80,10 @@ namespace tp2_oop
 
             return tempCerveaux;
         }
-
+        /// <summary>
+        /// Trie les dés dépendant de leur valeur
+        /// </summary>
+        /// <param name="desBrasses"></param>
         public void TrierBrasse(List<De> desBrasses)
         {
             foreach (De de in desBrasses)
@@ -90,6 +105,10 @@ namespace tp2_oop
             }
         }
 
+        /// <summary>
+        /// Compte les des cerveaux ammasés
+        /// </summary>
+        /// <returns> Le résulat du calcul pour le nombre de points eu dans 1 tour</returns>
         public int MarquerPoints()
         {
             this.Proprio.Pointage += nbCerveauxRestants + NbCerveaux;

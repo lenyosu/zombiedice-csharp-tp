@@ -41,7 +41,11 @@ namespace tp2_oop
         {
             return Gobelet;
         }
-
+        /// <summary>
+        /// Change le joueur actif
+        /// </summary>
+        /// <param name="numeroJoueur"></param>
+        /// <returns>À Qui revient le tour</returns>
         public Joueur ChangerJoueurActif(int numeroJoueur)
         {
             this.intJoueurActif = numeroJoueur;

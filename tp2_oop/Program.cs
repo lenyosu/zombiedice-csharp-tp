@@ -8,7 +8,10 @@ namespace tp2_oop
 {
     internal class Program
     {
-        
+        /// <summary>
+        /// Demande et lit le nombre de joueurs dans la partie
+        /// </summary>
+        /// <returns>Le nombre de joueurs</returns>
         static byte LireNbJoueurs()
         {
             byte nbJoueurs;
@@ -20,6 +23,11 @@ namespace tp2_oop
             return nbJoueurs;
         }
 
+        /// <summary>
+        /// Demande et lit le nom des joueurs dans la partie
+        /// </summary>
+        /// <param name="nbJoueurs"></param>
+        /// <returns>Le nom des joueurs</returns>
         static string[] LireNomJoueurs(byte nbJoueurs)
         {
             Console.Clear();
@@ -35,6 +43,11 @@ namespace tp2_oop
             return nomJoueurs;
         }
 
+        /// <summary>
+        /// Print les couleurs des dés pigés copyright Brandon Gauthier
+        /// </summary>
+        /// <param name="des"></param>
+        /// <returns></returns>
         static string GenererCouleurDes(List<De> des)
         {
             string couleurDe = "";
@@ -72,6 +85,11 @@ namespace tp2_oop
             }
             return couleurDe;
         }
+
+        /// <summary>
+        /// Demande si le joueur veut refaire une brasse
+        /// </summary>
+        /// <returns>Le choix</returns>
         static bool voulezContinuer()
         {
             Console.WriteLine("Voulez-vous continuer? (y/n)");
@@ -92,6 +110,10 @@ namespace tp2_oop
             }
         }
 
+        /// <summary>
+        /// Print le résultat de la partie fini
+        /// </summary>
+        /// <param name="partie"></param>
         static void messageFin(ZombieDice partie)
         {
             Console.Clear();
@@ -102,6 +124,11 @@ namespace tp2_oop
             }
             Console.ReadKey();
         }
+
+        /// <summary>
+        /// Print le résultat d'une brasse
+        /// </summary>
+        /// <param name="brasse"></param>
         static void AfficherResultatBrasse(Brasse brasse)
         {
             string couleurPas = GenererCouleurDes(brasse.DesPas);
@@ -116,6 +143,11 @@ namespace tp2_oop
 
         }
 
+        /// <summary>
+        /// Fait les tours de tout le monde, 1 fois.
+        /// </summary>
+        /// <param name="partie"></param>
+        /// <param name="nbJoueurs"></param>
         static void FaireTourJeuComplet(ZombieDice partie, byte nbJoueurs)
         {
             for (int i = 0; i < nbJoueurs; i++)
@@ -127,7 +159,10 @@ namespace tp2_oop
                 FaireTourUnJoueur(partie);
             }
         }
-
+        /// <summary>
+        /// Fait un tour complet du joueur et vérifie si il gagne
+        /// </summary>
+        /// <param name="partie"></param>
         static void FaireTourUnJoueur(ZombieDice partie)
         {
             //1. piger 3 des
@@ -173,7 +208,10 @@ namespace tp2_oop
             }
             
         }
-
+        /// <summary>
+        /// Main
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             byte nbJoueurs = LireNbJoueurs();

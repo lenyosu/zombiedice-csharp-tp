@@ -21,7 +21,11 @@ namespace tp2_oop
         public string Nom { get; set; }
 
         public int Pointage { get; set; }
-
+        /// <summary>
+        /// Fait une brasse en prenant compte du nombre de pas pigés avant celle-ci
+        /// </summary>
+        /// <param name="gobelet"></param>
+        /// <returns>La brasse</returns>
         public Brasse FaireBrasse(Gobelet gobelet)
         {
             List<De> listeDesPas = brasse.ReturnDesPas();
