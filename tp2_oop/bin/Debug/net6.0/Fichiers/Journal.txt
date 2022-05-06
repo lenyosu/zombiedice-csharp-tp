@@ -1,0 +1,1 @@
+programme;dateHeure;messagePersonnalise;stacktrace

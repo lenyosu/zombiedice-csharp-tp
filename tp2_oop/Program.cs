@@ -58,7 +58,7 @@ namespace tp2_oop
         static string[] LireNomJoueurs(byte nbJoueurs)
         {
             Console.Clear();
-
+            
             string[] nomJoueurs = new string[nbJoueurs];
             for (int i = 0; i < nbJoueurs; i++)
             {
