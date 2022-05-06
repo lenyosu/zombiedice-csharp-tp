@@ -58,3 +58,5 @@ C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\t
 C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.pdb
 C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.genruntimeconfig.cache
 C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\ref\tp2_oop.dll
+C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\Fichiers\Historique.txt
+C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\Fichiers\Journal.txt

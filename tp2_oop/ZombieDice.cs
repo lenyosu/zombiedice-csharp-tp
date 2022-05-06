@@ -6,12 +6,16 @@ namespace tp2_oop
 {
     internal class ZombieDice
     {
-        private byte nbJoueur;
+        private const byte MIN_JOUEURS = 2;
+        private const byte MAX_JOUEURS = 4;
+        private const byte FIN_PARTIE = 3;
         private Gobelet gobelet;
         private Joueur[] arrJoueurs;
         private int intJoueurActif = 0;
-        
+
         private byte nbJoueurs;
+        
+        public Guid IdPartie { get; } = Guid.NewGuid();
         public Gobelet Gobelet { get => gobelet; }
         public Joueur[] Joueurs { get => arrJoueurs; }
         public bool PartieTermine { get; set; }

@@ -8,8 +8,12 @@ namespace tp2_oop
 {
     internal class Joueur
     {
+        public string InfosFinPartie { get; }
+
         
-        private bool premierJoueur;
+        
+        private bool premierJoueur { get; set; }
+        
         private Brasse brasse;
         public Joueur(string nom)
         {

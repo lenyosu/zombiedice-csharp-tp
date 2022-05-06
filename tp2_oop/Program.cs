@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,11 +15,37 @@ namespace tp2_oop
         /// <returns>Le nombre de joueurs</returns>
         static byte LireNbJoueurs()
         {
-            byte nbJoueurs;
-
+            byte nbJoueurs = 2;
+            bool parsed = false;
             Console.WriteLine("Bienvenue à ZombieDice!");
             Console.Write("Veuillez entrer le nombre de joueurs: ");
-            nbJoueurs = byte.Parse(Console.ReadLine());
+            
+            while(!parsed)
+                try
+                {
+                    nbJoueurs = byte.Parse(Console.ReadLine());
+
+                    if (nbJoueurs <= 4 && nbJoueurs >= 2)
+                    {
+                        parsed = true;
+                    }
+                    else
+                    {
+                        throw new FormatException();
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Journal.journaliserErreur(ex);
+                    Console.WriteLine("Il peut seulement y avoir entre 2 et 4 joueurs! Les charactères ne compte pas!");
+                    Console.Write("Veuillez entrer le nombre de joueurs: ");
+                }
+                catch (OverflowException ex)
+                {
+                    Journal.journaliserErreur(ex);
+                    Console.WriteLine("Il peut seulement y avoir entre 2 et 4 joueurs! Les charactères ne compte pas!");
+                    Console.Write("Veuillez entrer le nombre de joueurs: ");
+                }
 
             return nbJoueurs;
         }
