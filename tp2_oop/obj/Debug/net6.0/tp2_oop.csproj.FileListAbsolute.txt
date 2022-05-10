@@ -1,62 +1,79 @@
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.AssemblyReference.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfoInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfo.cs
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.CoreCompileInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\tp2_oop.exe
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\tp2_oop.deps.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\tp2_oop.runtimeconfig.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\ref\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\bin\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\ref\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop\tp2_oop\obj\Debug\net6.0\tp2_oop.genruntimeconfig.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\bin\Debug\net6.0\tp2_oop.exe
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\bin\Debug\net6.0\tp2_oop.deps.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\bin\Debug\net6.0\tp2_oop.runtimeconfig.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\bin\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\bin\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.AssemblyReference.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfoInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfo.cs
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.CoreCompileInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\refint\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\tp2_oop.genruntimeconfig.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#1\tp2_oop\obj\Debug\net6.0\ref\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\bin\Debug\net6.0\tp2_oop.exe
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\bin\Debug\net6.0\tp2_oop.deps.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\bin\Debug\net6.0\tp2_oop.runtimeconfig.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\bin\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\bin\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.AssemblyReference.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfoInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfo.cs
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.CoreCompileInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\refint\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\tp2_oop.genruntimeconfig.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\tp2_oop-#2\tp2_oop\obj\Debug\net6.0\ref\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\tp2_oop.exe
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\tp2_oop.deps.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\tp2_oop.runtimeconfig.json
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.AssemblyReference.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfoInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.AssemblyInfo.cs
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.csproj.CoreCompileInputs.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\refint\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.pdb
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\tp2_oop.genruntimeconfig.cache
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\obj\Debug\net6.0\ref\tp2_oop.dll
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\Fichiers\Historique.txt
-C:\Users\2138239\OneDrive - Cegep De Matane\Bureau\OOP\TP\zombiedice-csharp-tp\tp2_oop\bin\Debug\net6.0\Fichiers\Journal.txt
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.AssemblyReference.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfoInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfo.cs
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.CoreCompileInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/tp2_oop.exe
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/tp2_oop.deps.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/tp2_oop.runtimeconfig.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/ref/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/bin/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/ref/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop/tp2_oop/obj/Debug/net6.0/tp2_oop.genruntimeconfig.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/bin/Debug/net6.0/tp2_oop.exe
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/bin/Debug/net6.0/tp2_oop.deps.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/bin/Debug/net6.0/tp2_oop.runtimeconfig.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/bin/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/bin/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.AssemblyReference.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfoInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfo.cs
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.CoreCompileInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/refint/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/tp2_oop.genruntimeconfig.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#1/tp2_oop/obj/Debug/net6.0/ref/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/bin/Debug/net6.0/tp2_oop.exe
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/bin/Debug/net6.0/tp2_oop.deps.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/bin/Debug/net6.0/tp2_oop.runtimeconfig.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/bin/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/bin/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.AssemblyReference.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfoInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfo.cs
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.CoreCompileInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/refint/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/tp2_oop.genruntimeconfig.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/tp2_oop-#2/tp2_oop/obj/Debug/net6.0/ref/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.exe
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.deps.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.runtimeconfig.json
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.AssemblyReference.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfoInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfo.cs
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.CoreCompileInputs.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/refint/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.pdb
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.genruntimeconfig.cache
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/ref/tp2_oop.dll
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/Fichiers/Historique.txt
+C:/Users/2138239/OneDrive - Cegep De Matane/Bureau/OOP/TP/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/Fichiers/Journal.txt
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/Fichiers/Historique.txt
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/Fichiers/Journal.txt
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.deps.json
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.runtimeconfig.json
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.dll
+/home/leny/zombiedice-csharp-tp/tp2_oop/bin/Debug/net6.0/tp2_oop.pdb
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.AssemblyReference.cache
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.GeneratedMSBuildEditorConfig.editorconfig
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfoInputs.cache
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.AssemblyInfo.cs
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.csproj.CoreCompileInputs.cache
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.dll
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/refint/tp2_oop.dll
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.pdb
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/tp2_oop.genruntimeconfig.cache
+/home/leny/zombiedice-csharp-tp/tp2_oop/obj/Debug/net6.0/ref/tp2_oop.dll

@@ -1,10 +1,11 @@
 ﻿
 using System;
+using System.Net.NetworkInformation;
 
 
 namespace tp2_oop
 {
-    internal class ZombieDice
+    internal class ZombieDice : IZombieDice
     {
         private const byte MIN_JOUEURS = 2;
         private const byte MAX_JOUEURS = 4;
@@ -17,9 +18,22 @@ namespace tp2_oop
         
         public Guid IdPartie { get; } = Guid.NewGuid();
         public Gobelet Gobelet { get => gobelet; }
-        public Joueur[] Joueurs { get => arrJoueurs; }
+        public Joueur[] Joueurs
+        {
+            get => arrJoueurs;
+            set => arrJoueurs = value;
+        }
+
         public bool PartieTermine { get; set; }
-        public Joueur JoueurActif { get => arrJoueurs[intJoueurActif]; }
+        public Joueur JoueurActif { 
+            get => arrJoueurs[intJoueurActif];
+            set => arrJoueurs[intJoueurActif] = value;
+        }
+
+        public ZombieDice()
+        {
+            
+        }
 
         /// <summary>
         /// Constructeur de la classe ZombieDice
@@ -27,7 +41,18 @@ namespace tp2_oop
         /// <param name="nbJoueurs"></param>
         public ZombieDice(byte nbJoueurs, string[] nomJoueurs)
         {
+            if (nbJoueurs < 2 || nbJoueurs > 4)
+            {
+                throw new FormatException();
+            }
+            
+            if (nomJoueurs.Length != nbJoueurs)
+            {
+                throw new OverflowException();
+            }
+            
             Joueur[] arrJoueurs = new Joueur[nbJoueurs];
+            
             for (int i = 0; i < nbJoueurs; i++)
             {
                 arrJoueurs[i] = new Joueur(nomJoueurs[i]);
@@ -36,7 +61,24 @@ namespace tp2_oop
             this.nbJoueurs = nbJoueurs;
             this.gobelet = new Gobelet();
         }
-        
+
+        public List<Joueur> LireInfosParties(Guid idPartie)
+        {
+            return Fichier.LireInfosPartie(idPartie, this);
+        }
+
+        public List<Guid> LireIdParties()
+        {
+            return Fichier.LireIdPartie();
+        }
+        public void EcrireInfosPartie()
+        {
+            foreach (Joueur joueurs in Joueurs)
+            {
+                Fichier.EcrireInfosFinPartie($"\n{IdPartie};{joueurs.Nom};{joueurs.Pointage}");
+            }
+        }
+
         /// <summary>
         /// Méthode qui va chercher le gobelet
         /// </summary>

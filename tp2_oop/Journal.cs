@@ -8,14 +8,12 @@ namespace tp2_oop
 {
     internal class Journal
     {
-        static string fichierEcriture = Directory.GetCurrentDirectory() + "\\Fichiers\\Journal.txt";
-
-        private static StreamWriter writerFichier = new StreamWriter(fichierEcriture, true);
+        private static string fichierEcriture = Directory.GetCurrentDirectory() + "\\Fichiers\\Journal.txt";
 
         public static void journaliserErreur(Exception ex)
         {
-            Fichier.ecrireErreur("\n TP3-Livrable1; "+DateTime.Now+";"+ex.StackTrace);
-            Console.WriteLine("Error found, wrote in Journal.txt");
+            Fichier.EcrireErreur($"\n{AppDomain.CurrentDomain.FriendlyName};{DateTime.Now};{ex.StackTrace}");
+            Console.WriteLine("Erreur, logged in Fichiers/Journal.txt");
         }
     }
 }

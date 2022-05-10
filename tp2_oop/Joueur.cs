@@ -15,10 +15,10 @@ namespace tp2_oop
         private bool premierJoueur { get; set; }
         
         private Brasse brasse;
-        public Joueur(string nom)
+        public Joueur(string nom, int pointage = 0)
         {
             Nom = nom;
-            Pointage = 0;
+            Pointage = pointage;
             this.brasse = new Brasse(this);
         }
 

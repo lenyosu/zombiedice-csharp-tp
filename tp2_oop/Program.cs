@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -19,33 +20,7 @@ namespace tp2_oop
             bool parsed = false;
             Console.WriteLine("Bienvenue à ZombieDice!");
             Console.Write("Veuillez entrer le nombre de joueurs: ");
-            
-            while(!parsed)
-                try
-                {
-                    nbJoueurs = byte.Parse(Console.ReadLine());
-
-                    if (nbJoueurs <= 4 && nbJoueurs >= 2)
-                    {
-                        parsed = true;
-                    }
-                    else
-                    {
-                        throw new FormatException();
-                    }
-                }
-                catch (FormatException ex)
-                {
-                    Journal.journaliserErreur(ex);
-                    Console.WriteLine("Il peut seulement y avoir entre 2 et 4 joueurs! Les charactères ne compte pas!");
-                    Console.Write("Veuillez entrer le nombre de joueurs: ");
-                }
-                catch (OverflowException ex)
-                {
-                    Journal.journaliserErreur(ex);
-                    Console.WriteLine("Il peut seulement y avoir entre 2 et 4 joueurs! Les charactères ne compte pas!");
-                    Console.Write("Veuillez entrer le nombre de joueurs: ");
-                }
+            nbJoueurs = byte.Parse(Console.ReadLine());
 
             return nbJoueurs;
         }
@@ -57,18 +32,68 @@ namespace tp2_oop
         /// <returns>Le nom des joueurs</returns>
         static string[] LireNomJoueurs(byte nbJoueurs)
         {
-            Console.Clear();
             
+            Console.Clear();
+
             string[] nomJoueurs = new string[nbJoueurs];
+
             for (int i = 0; i < nbJoueurs; i++)
             {
                 Console.Clear();
                 Console.Write("Veuillez entrer le nom du joueur " + (i + 1) + ": ");
                 nomJoueurs[i] = Console.ReadLine();
             }
-
+            
             return nomJoueurs;
         }
+        private static void afficherIdParties(List<Guid> idParties)
+        {
+            for (int i = 0; i < idParties.Count; i++)
+            {
+                Console.Write($"\n{i + 1} : {idParties[i]}");
+            }
+        }
+
+        private static void afficherInfoParties(Guid id, ZombieDice partie)
+        {
+            List<Joueur> listeJoueurs = partie.LireInfosParties(id);
+            foreach (Joueur joueur in listeJoueurs)
+            {
+                Console.Write($"\n{joueur.Nom} : {joueur.Pointage}");
+            }
+        }
+
+        private static int choisirIdParties()
+        {
+            int choice = 0;
+            Console.Write("\nVeuillez choisir la partie à consulter: ");
+            choice = Convert.ToInt32(Console.ReadLine());
+            return choice - 1;
+        }
+
+        private static void gererChoixHistorique(IZombieDice jeu)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static bool jouerOuConsulterHistorique()
+        {
+            Console.Clear();
+            Console.Write("Voulez vous regarder l'historique(h) ou jouer une partie?(p): ");
+            while (true)
+            {
+                var choix = Console.ReadKey(true).Key;
+
+                switch (choix)
+                {
+                    case ConsoleKey.H:
+                        return true;
+                    case ConsoleKey.P:
+                        return false;
+                }
+            }
+        }
+        
 
         /// <summary>
         /// Print les couleurs des dés pigés copyright Brandon Gauthier
@@ -241,16 +266,48 @@ namespace tp2_oop
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            byte nbJoueurs = LireNbJoueurs();
-            string[] nomJoueurs = LireNomJoueurs(nbJoueurs);
-            ZombieDice partie = new ZombieDice(nbJoueurs, nomJoueurs);
+            bool started = false;
+
+            bool choix = jouerOuConsulterHistorique();
+
+            if (choix)
+            {
+                ZombieDice historique = new ZombieDice();
+                afficherIdParties(historique.LireIdParties());
+                Guid chosenGuid = Fichier.LireIdPartie()[choisirIdParties()];
+                afficherInfoParties(chosenGuid, historique);
+
+                Console.ReadKey();
+                Environment.Exit(69420);
+            }
+
+            ZombieDice partie = null;
+            byte nbJoueurs = 0;
+            
+            while (!started)
+                
+                try
+                {
+                    nbJoueurs = LireNbJoueurs();
+                    string[] nomJoueurs = LireNomJoueurs(nbJoueurs);
+                    partie = new ZombieDice(nbJoueurs, nomJoueurs);
+                    started = true;
+                }
+                
+                catch (Exception ex)
+                {
+                    Journal.journaliserErreur(ex);
+                    Console.WriteLine("Erreur, journalisé dans Fichiers/Journal.txt");
+                }
+
 
 
             while (!partie.PartieTermine)
             {
                 FaireTourJeuComplet(partie, nbJoueurs);
             }
-
+            
+            partie.EcrireInfosPartie();
             messageFin(partie);
             
         }

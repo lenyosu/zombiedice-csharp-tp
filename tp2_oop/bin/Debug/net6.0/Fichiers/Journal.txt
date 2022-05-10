@@ -1,1 +1,22 @@
 programme;dateHeure;messagePersonnalise;stacktrace
+
+tp2_oop;2022-05-09 5:20:15 p.m.;   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Byte.Parse(String s)
+   at tp2_oop.Program.LireNbJoueurs() in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 22
+   at tp2_oop.Program.Main(String[] args) in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 269
+tp2_oop;2022-05-09 5:20:16 p.m.;   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Byte.Parse(String s)
+   at tp2_oop.Program.LireNbJoueurs() in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 22
+   at tp2_oop.Program.Main(String[] args) in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 269
+tp2_oop;2022-05-09 5:20:17 p.m.;   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Byte.Parse(String s)
+   at tp2_oop.Program.LireNbJoueurs() in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 22
+   at tp2_oop.Program.Main(String[] args) in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 269
+tp2_oop;2022-05-09 5:37:53 p.m.;   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Byte.Parse(String s)
+   at tp2_oop.Program.LireNbJoueurs() in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 22
+   at tp2_oop.Program.Main(String[] args) in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 269
+tp2_oop;2022-05-09 5:37:55 p.m.;   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Byte.Parse(String s)
+   at tp2_oop.Program.LireNbJoueurs() in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 22
+   at tp2_oop.Program.Main(String[] args) in /home/leny/zombiedice-csharp-tp/tp2_oop/Program.cs:line 269

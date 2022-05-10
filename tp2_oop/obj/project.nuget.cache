@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sWqHjcpQ+LsFuZbk1CsBByjKlkkESPRjHP1PZism31WOBRz3JOoKjaYQ1hQ295xcl8B8WWsUH+Cj6zP4Fh07bQ==",
+  "dgSpecHash": "pLbYlZlq5T06zUfdoI+fbSh0ygWYkO2hQ6e5/c0cpGImG+plR+579dI18aLO8h2IrNQkI1r5yNwLXrtnYcR+RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2138239\\OneDrive - Cegep De Matane\\Bureau\\OOP\\TP\\zombiedice-csharp-tp\\tp2_oop\\tp2_oop.csproj",
+  "projectFilePath": "/home/leny/zombiedice-csharp-tp/tp2_oop/tp2_oop.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
